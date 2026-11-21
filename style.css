@@ -1,0 +1,126 @@
+* {
+    margin: 0 auto;
+    font-family: 'Fira Code';
+}
+
+body {
+    color: white;
+    background-color: rgb(23, 40, 54);
+}
+
+a {
+    color: rgb(38, 150, 224) !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(34, 133, 199) !important;
+    text-decoration: underline;
+}
+
+.mega-big {
+    font-size: 60px;
+}
+
+.image-height-and-width-X1 {
+    height: 44px;
+    width: 44px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.navbar {
+    background-color: rgb(16, 28, 37) !important;
+    font-size: 22px;
+    padding: 6px;
+}
+
+.navbar a {
+    position: relative;
+    background: none;
+    top: -12px;
+}
+
+.navbar img {
+    background: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.margin-1 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.margin-2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.margin-3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.middle-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.text-snow {
+    color: aqua;
+}
+
+.text-carry {
+    color: beige;
+}
+
+.text-fil {
+    color: rgb(42, 103, 236);
+}
+
+.text-pan-part1 {
+    color: #FF218C;
+}
+
+.text-pan-part2 {
+    color: #FFD800;
+}
+
+.text-pan-part3 {
+    color: #21B1FF;
+}
+
+.text-small {
+    font-size: 10px;
+    opacity: 0.75 !important;
+}
+
+.text-bend {
+    font-style: italic;
+}
+
+.footer {
+    margin-top: 100px;
+    opacity: 0.75 !important;
+    text-align: center !important;
+}
+
+.alerts {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 187, 0);
+}
+
+.alerts p {
+    background: none;
+}

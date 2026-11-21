@@ -1,0 +1,20 @@
+<?php
+require_once $_SERVER["DOCUMENT_ROOT"] . "/php/db.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/vendor/autoload.php";
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/head.php"; ?>
+    </head>
+    <body>
+        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/navbar.php"; ?>
+        <div class="container">
+            <div class="text-center">
+                <h2>THE HALL OF FANART</h2>
+                
+            </div>
+        </div>
+        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/footer.php"; ?>
+    </body>
+</html>
