@@ -36,14 +36,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'arvidbergq@gmail.com';
-        $mail->Password   = 'ufbo dhgf abur trgf';
+        $mail->Username   = $settings["emailFrom"];
+        $mail->Password   = $settings["password"];
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         $mail->CharSet    = 'UTF-8';
 
-        $mail->setFrom('arvidbergq@gmail.com', 'Nacosito Anonymous Question');
-        $mail->addAddress('arvidbergq@gmail.com', 'Naco');
+        $mail->setFrom($settings["emailFrom"], 'Nacosito Anonymous Question');
+        $mail->addAddress($settings["emailTo"], 'Naco');
 
         $mail->isHTML(false);
         $mail->Subject = 'New Anonymous Question from nacosito.com';
