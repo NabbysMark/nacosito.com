@@ -6,5 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'phpMussel\\PHPMailer\\' => array($vendorDir . '/phpmussel/phpmailer/src'),
+    'phpMussel\\Core\\' => array($vendorDir . '/phpmussel/core/src'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
+    'Maikuolan\\Common\\' => array($vendorDir . '/maikuolan/common/src'),
 );

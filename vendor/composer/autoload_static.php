@@ -7,16 +7,37 @@ namespace Composer\Autoload;
 class ComposerStaticInit2185d2f99bcd56787481d9357a5972d3
 {
     public static $prefixLengthsPsr4 = array (
+        'p' =>
+        array (
+            'phpMussel\\PHPMailer\\' => 20,
+            'phpMussel\\Core\\' => 15,
+        ),
         'P' =>
         array (
             'PHPMailer\\PHPMailer\\' => 20,
         ),
+        'M' =>
+        array (
+            'Maikuolan\\Common\\' => 17,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'phpMussel\\PHPMailer\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpmussel/phpmailer/src',
+        ),
+        'phpMussel\\Core\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/phpmussel/core/src',
+        ),
         'PHPMailer\\PHPMailer\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'Maikuolan\\Common\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/maikuolan/common/src',
         ),
     );
 

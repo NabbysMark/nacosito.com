@@ -1,9 +1,6 @@
 {
     "files.exclude": {
-        "**/.well-known": true,
-        "**/vendor": true,
-        "composer.json":true,
-        "composer.lock":true,
+        
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.expand": true,
